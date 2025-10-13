@@ -9,5 +9,4 @@ total_bill_paid_per_person=(tip_given + bill)/people
 answer=(round(total_bill_paid_per_person, 2))
 
 print(f"Each person should pay ${answer}")
-
-
+print("testing")
