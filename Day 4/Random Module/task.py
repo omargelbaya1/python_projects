@@ -1,3 +1,1 @@
-print("correctig previous mistake!")
-print("idk what to do ")
-print("ho")
+print("i rrealy should do somework right about nopw")
