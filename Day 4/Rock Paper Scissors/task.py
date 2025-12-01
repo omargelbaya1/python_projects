@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -24,3 +26,21 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
+types_of_hands =[rock,paper,scissors]
+computer_hand= random.randint(0,2)
+computer_choice=types_of_hands[computer_hand]
+
+print("0 for rock, 1 for paper, 2 for scissors")
+choice_of_hand=int(input())
+print(computer_choice)
+if choice_of_hand==0 and computer_hand==0:
+    print("draw")
+    print(rock)
+elif choice_of_hand==0 and computer_hand==1:
+    print("lose")
+    print(rock)
+elif choice_of_hand==0 and computer_hand==2:
+    print("win")
+    print(rock)
+
